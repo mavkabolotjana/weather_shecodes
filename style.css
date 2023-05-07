@@ -1,0 +1,116 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: #7c7c7c;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  background: yellowgreen;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+
+.time_rise {
+  background-color: rgb(182, 182, 243);
+
+  font-size: small;
+  margin: 100px auto;
+}
+
+.currentDay,
+.currentTime {
+  font-size: 25px;
+}
+.day {
+  background: rgb(190, 228, 210) 62.3%;
+}
+.curentregion {
+  font-weight: 900;
+  font-size: 100%;
+  background: rgb(137, 152, 227);
+  color: whitesmoke;
+  border: 1px solid #dadde1;
+  text-align: center;
+}
+#city {
+  padding: 0;
+}
+#fahrenheit-link,
+#celsius-link {
+  color: whitesmoke;
+  padding: 0;
+}
+.geomagnetic {
+  background: rgb(190, 228, 210) 62.3%;
+}
+footer {
+  text-align: center;
+
+  bottom: 0cm;
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+}
+button.currentcity {
+  border-radius: 10px;
+  background: rgb(190, 228, 210) 62.3%;
+  border-style: double;
+}
