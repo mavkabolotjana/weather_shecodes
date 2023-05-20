@@ -48,24 +48,28 @@
             <div class="col-3">
               <button
                 class="btn btn-success w-100"
+                
                 id="current-location-button"
               >
-                Current
+                Current 🌍 ✔
               </button>
             </div>
           </div>
         </form>
         <h2 id="city"></h2>
         <ul>
-          <li id="date"></li>
-          <li id="description"></li>
-        </ul>
+              <li>Last updated: <span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
         <div class="row">
           <div class="col-6">
             <div class="clearfix">
+              <img src="" alt="Clear" id="icon" class="float-left" />
               <div class="float-left">
                 <span class="temperature" id="temperature"></span
-                ><span class="units">°C</span>
+                ><span class="units"> <a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  >
               </div>
             </div>
           </div>

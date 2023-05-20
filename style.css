@@ -58,7 +58,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 h1 {
-  background: yellowgreen;
+  background: #bee4d2;
   border: 1px solid #dadde1;
   border-radius: 10px;
   padding-left: 8px;
@@ -82,17 +82,38 @@ h1 {
   font-weight: 900;
   font-size: 100%;
   background: rgb(137, 152, 227);
-  color: whitesmoke;
+
   border: 1px solid #dadde1;
   text-align: center;
+}
+.btn-primary {
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+  color: #7c7c7c;
+}
+
+.btn-success {
+  background: #c2e2d0;
+  color: #7c7c7c;
 }
 #city {
   padding: 0;
 }
 #fahrenheit-link,
 #celsius-link {
-  color: whitesmoke;
   padding: 0;
+}
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
 .geomagnetic {
   background: rgb(190, 228, 210) 62.3%;
